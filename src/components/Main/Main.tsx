@@ -9,7 +9,7 @@ export default function Main() {
     title: "Summary",
     aboutMe: {
       title: "About Me:",
-      article: `I'm an enthusiastic and detail-oriented Frontend Software Engineer
+      article: `My name is Pavel. I'm an enthusiastic and detail-oriented Frontend Software Engineer
               seeking an entry-level position with Company to use my skills in coding,
               troubleshooting complex problems, and assisting in the timely completion
               of projects.`,
@@ -31,7 +31,7 @@ export default function Main() {
       },
       tools: {
         title: "Building tools:",
-        article: "NPM, Git, GitHub",
+        article: "npm, Git, GitHub",
       },
     },
     eng: {
@@ -47,7 +47,7 @@ export default function Main() {
     title: "Резюме",
     aboutMe: {
       title: "Обо мне:",
-      article: `Я увлеченный и ориентированный на детали инженер-программист Front-end
+      article: `Меня зовут Павел. Я увлеченный и ориентированный на детали инженер-программист Front-end
               ищу должность начального уровня в компании, чтобы использовать свои навыки в кодировании,
               устранении сложных проблем и оказании помощи в своевременном завершении проектов.`,
     },
@@ -68,7 +68,7 @@ export default function Main() {
       },
       tools: {
         title: "Средства разработки:",
-        article: "NPM, Git, GitHub",
+        article: "npm, Git, GitHub",
       },
     },
     eng: {
@@ -83,7 +83,7 @@ export default function Main() {
   return (
     <main className="main">
       <Header setLang={setLanguage} />
-      <About props={laguage === "RU" ? ru : en} />
+      <About props={laguage === "RU" ? ru : en} state={laguage} />
     </main>
   );
 }

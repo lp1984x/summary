@@ -12,9 +12,9 @@ export default function Header({ setLang }: IProp) {
       expand="lg"
       bg="dark"
       variant="dark"
-      className="justify-content-end align-items-start col-lg-3 col-12"
+      className="justify-content-end align-items-start col-lg-3 col-12 sticky-top"
     >
-      <Container className="align-items-center align-items-lg-end flex-lg-column justify-content-lg-end">
+      <Container className="align-items-center align-items-lg-end flex-lg-column justify-content-lg-end sticky-top">
         <Navbar.Brand
           href="#home"
           className="d-flex flex-lg-column align-items-center align-items-lg-end m-0 "
@@ -41,22 +41,40 @@ export default function Header({ setLang }: IProp) {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="d-lg-flex flex-column align-items-end col-12">
-              <Nav.Link href="#tell" className="d-flex align-items-center">
+              <Nav.Link
+                href="tel:+79096240173"
+                target="_blank"
+                className="d-flex align-items-center"
+              >
                 8-909-624-01-73
                 <Icon.TelephoneFill className="ms-3" />
               </Nav.Link>
-              <Nav.Link href="@LP84X" className=" d-flex align-items-center">
+              <Nav.Link
+                href="mailto:lp84@inbox.ru"
+                target="_blank"
+                rel="nofollow"
+                className=" d-flex align-items-center"
+              >
                 lp84@inbox.ru
                 <Icon.EnvelopeAtFill className="ms-3" />
               </Nav.Link>
-              <Nav.Link href="#none" className="d-flex align-items-center">
+              <Nav.Link
+                href="tg://resolve?domain=@LP84X"
+                target="_blank"
+                className="d-flex align-items-center"
+              >
                 @LP84X
                 <Icon.Telegram className="ms-3" />
               </Nav.Link>
-              <Nav.Link href="https://github.com/lp1984x" className=" ms-3">
-                <Icon.Github />
+              <Nav.Link
+                href="https://github.com/lp1984x"
+                target="_blank"
+                className=" ms-3"
+              >
+                https://github.com/lp1984x
+                <Icon.Github className="ms-3" />
               </Nav.Link>
-              <Nav className="flex-row">
+              <Nav defaultActiveKey="#RU" className="flex-row">
                 <Nav.Link href="#RU" onClick={() => setLang("RU")}>
                   RU
                 </Nav.Link>
