@@ -17,3 +17,11 @@ body,
   color: black;
   background-color: rgb(236, 234, 234);
 }
+.offcanvas-header,
+.offcanvas-body {
+  color: white;
+  background-color: rgb(33, 37, 41);
+}
+.offcanvas-header {
+  border-bottom: 1px solid white;
+}

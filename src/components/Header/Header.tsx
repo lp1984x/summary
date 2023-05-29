@@ -33,7 +33,7 @@ export default function Header({ setLang }: IProp) {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Offcanvas placement="end">
-          <Offcanvas.Header closeButton>
+          <Offcanvas.Header closeButton closeVariant="white">
             <Offcanvas.Title id={`offca`}>
               <p className="fs-3 mb-0 ">Larichev Pavel</p>
               <p className="fs-6 ">Junior FrondEnd Developer</p>
