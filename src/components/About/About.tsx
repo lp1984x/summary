@@ -2,6 +2,7 @@ import React from "react";
 import { Accordion, Container } from "react-bootstrap";
 import { ILang } from "../../models";
 import * as Icon from "react-bootstrap-icons";
+import { pets } from "../data/pets";
 
 interface IProp {
   props: ILang;
@@ -9,41 +10,6 @@ interface IProp {
 }
 
 export default function About({ props, state }: IProp) {
-  const pets = [
-    {
-      title: "ToDo",
-      desc_ru: `Адаптивный cписок дел`,
-      desc_en: `Adaptive ToDo list`,
-      netliLink: "https://lp84-todo.netlify.app/",
-      gitLink: "https://github.com/lp1984x/ToDo",
-    },
-    {
-      title: "Store",
-      desc_ru:
-        "Простой,адаптивныймакет, магазина с использованием TypyScript, React-bootstrap, redux-toolkit,",
-      desc_en:
-        "Simple and adaptive store with TypyScript, React-bootstrap, redux-toolkit, fake API",
-      netliLink: "https://lp84-store.netlify.app/",
-      gitLink: "https://github.com/lp1984x/store",
-    },
-    {
-      title: "E-Commerce",
-      desc_ru:
-        "Адаптивный магазина по макету из итернета с использованием TypyScript, redux-toolkit, scss, fake API",
-      desc_en:
-        "Adaptive store layout from the internet with Typescript, redux-toolkit, scss, fakeAPI",
-      netliLink: "https://lp84-ecommerce.netlify.app/",
-      gitLink: "https://github.com/lp1984x/e-commerce",
-    },
-    {
-      title: "FUNBOX",
-      desc_ru: "Тестовое здание",
-      desc_en: "Test task",
-      netliLink: "https://lp84-react-funbox.netlify.app/",
-      gitLink: "https://github.com/lp1984x/react-FUNBOX",
-    },
-  ];
-
   return (
     <Container className="col-lg-9 py-5 p-lg-5">
       <h4 className="text-center">{props.title}</h4>
