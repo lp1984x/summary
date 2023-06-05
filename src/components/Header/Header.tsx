@@ -28,7 +28,7 @@ export default function Header({ setLang }: IProp) {
           />
           <Container className=" d-none d-lg-block">
             <p className="fs-3 mb-0 ">Larichev Pavel</p>
-            <p className="fs-6 ">Junior FrondEnd Developer</p>
+            <p className="fs-6 ">FrondEnd Developer</p>
           </Container>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

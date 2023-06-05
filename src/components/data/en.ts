@@ -2,10 +2,7 @@ export const en = {
     title: "Summary",
     aboutMe: {
       title: "About Me:",
-      article: `My name is Pavel. I'm an enthusiastic and detail-oriented Frontend Software Engineer
-              seeking an entry-level position with Company to use my skills in coding,
-              troubleshooting complex problems, and assisting in the timely completion
-              of projects.`,
+      article: `My name is Larichev Pavel. I'm a Frontend developer`,
     },
     techSlkils: {
       title: "Technical Skills:",
