@@ -10,7 +10,7 @@ export const pets = [
       title: "Landing",
       desc_ru: `Простой лэндинг`,
       desc_en: `Simple landing page`,
-      netliLink: "lp84-landing.netlify.app",
+      netliLink: "https://lp84-landing.netlify.app",
       gitLink: "https://github.com/lp1984x/Landing",
     },
     
