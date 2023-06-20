@@ -7,6 +7,14 @@ export const pets = [
       gitLink: "https://github.com/lp1984x/ToDo",
     },
     {
+      title: "Landing",
+      desc_ru: `Простой лэндинг`,
+      desc_en: `Simple landing page`,
+      netliLink: "lp84-landing.netlify.app",
+      gitLink: "https://github.com/lp1984x/Landing",
+    },
+    
+    {
       title: "Store",
       desc_ru:
         "Простой,адаптивныймакет, магазина с использованием TypyScript, React-bootstrap, redux-toolkit,",
